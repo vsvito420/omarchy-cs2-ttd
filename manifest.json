@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "vsvito.cs2-ttd",
+  "name": "CS2 Time to Damage",
+  "version": "1.0.0",
+  "author": "vsvito",
+  "description": "Your CS2 Time-to-Damage from cs2tracker.gg in the bar, with trend and history",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "CS2TTD.qml"
+  },
+  "barWidget": {
+    "displayName": "CS2 TTD",
+    "description": "CS2 Time-to-Damage trend from cs2tracker.gg",
+    "category": "System",
+    "allowMultiple": false
+  }
+}
